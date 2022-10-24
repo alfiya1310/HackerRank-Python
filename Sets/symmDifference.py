@@ -1,0 +1,6 @@
+NE=input()
+ne_roll=set(input().split())
+NF=input()
+nf_roll=set(input().split())
+Diff=ne_roll.symmetric_difference(nf_roll)
+print(len(Diff))
